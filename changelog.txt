@@ -1,3 +1,4 @@
 = 1.0.4 - December 31, 2018 =
 
 * Add auto-update feature
+* Register update check on plugins_loaded action

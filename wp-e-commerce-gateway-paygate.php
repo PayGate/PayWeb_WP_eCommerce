@@ -31,7 +31,12 @@ function paygate_activation()
     if ( !copy( $plugin_dir, $theme_dir ) ) {
         echo "failed to copy $plugin_dir to $theme_dir...\n";
     }
+}
 
+register_activation_hook( __FILE__, 'paygate_activation' );
+
+function paygate_init()
+{
     /**
      * Auto updates from GIT
      *
@@ -63,8 +68,7 @@ function paygate_activation()
 
     }
 }
-
-register_activation_hook( __FILE__, 'paygate_activation' );
+add_action( 'plugins_loaded', 'paygate_init', 0 );
 
 function paygate_deactivation()
 {
