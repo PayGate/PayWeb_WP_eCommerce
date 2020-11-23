@@ -6,7 +6,7 @@ This is the PayGate PayWeb3 plugin for WP eCommerce. Please feel free to contact
 ## Installation
 [![How To Setup PayGate PayWeb for WP eCommerce](https://www.appinlet.com/wp-content/uploads/2018/09/WP-eCommerce-Integration.jpg)](https://www.youtube.com/watch?v=ePk47dUZ-To "How To Setup PayGate PayWeb for WP eCommerce")
 
-Please navigate to the [releases page](https://github.com/PayGate/PayWeb_WP_eCommerce/releases), download the latest release (v1.0.4) and unzip. You will them be able to follow the integration guide PDF which is included in the zip.
+Please navigate to the [releases page](https://github.com/PayGate/PayWeb_WP_eCommerce/releases), download the latest release (v1.0.4) and unzip. You will then be able to follow the integration guide PDF which is included in the zip.
 
 ## Collaboration
 
